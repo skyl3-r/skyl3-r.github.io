@@ -127,6 +127,10 @@ hr.dotted {
     padding: 0 15px 0 0;
 }
 
-#rlin:hover {
+#rlin {
     color: white;
+}
+
+#rlin:hover {
+    color: #8a63c0;
 }
