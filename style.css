@@ -1,0 +1,128 @@
+body {
+    background: #ece8fe ;
+    margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #44364B;
+}
+
+a:hover {
+    color: #8a63c0;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 1px solid #44364B;
+}
+
+input[type=text] {
+    border: 2px solid #44364B;
+    border-radius: 4px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+input[type=text]:focus {
+    border: 2px solid #8a63c0;
+}
+
+input[type=file] {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+input[type=submit] {
+    border: 2px solid #44364B;
+    border-radius: 4px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+input[type=submit]:focus {
+    border: 2px solid #8a63c0;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    padding: 0 0 0 300px;
+}
+
+.question {
+    padding: 10px 50px;
+    text-align: center;
+    border: 3px solid #44364B;
+    border-radius: 3px;
+    background-color: #e4e2ff;
+    margin: 0 50px;
+    font-weight: bold;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    color: white ;
+    font-size: 30px;
+    background-image: url(https://jooinn.com/images/cloud-texture-1.jpg);
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6D5B87;
+    color: white;
+    text-align: right;
+}
+
+.trans {
+    background: #6D5B87;
+    opacity: 0.6;
+    padding: 5px;
+}
+
+.body {
+    margin: 15px;
+    color: #44364B;
+    margin-bottom: 85px;
+}
+
+.table {
+    background-color: #e4e2ff;
+    margin: 25px 150px;
+    
+}
+
+.type {
+    text-decoration: underline;
+}
+
+hr.dotted {
+    border-top: 3px dotted #6D5B87;
+    margin: 25px;
+}
+
+#pic1 {
+    float: right;
+    height: 250px;
+    width: 250px;
+    padding: 0 0 0 15px;
+}
+
+#pic2 {
+    float: left;
+    height: 250px;
+    width: 250px;
+    padding: 0 15px 0 0;
+}
